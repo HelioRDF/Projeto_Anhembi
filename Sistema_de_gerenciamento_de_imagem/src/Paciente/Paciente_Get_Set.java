@@ -16,7 +16,8 @@ public class Paciente_Get_Set {
     //Atributos.
     private  int Cod=0; 
     private  int i = 1000;// Código Randomico.
-    private  String Nome; 
+    private  String Nome;
+    private  int CPF;
     private  Data Data_Nasc;
     private  String Endereco;
     private  int Telefone;
@@ -50,6 +51,10 @@ return this.Nome;                  }
 public void setNome(String nome){
 this.Nome=nome;                    }
 
+public int getCPF(){
+return this.CPF;                  } 
+public void setCPF(int cpf){
+this.Telefone = CPF;                    }
 
 public Data getDate_Nasc(){
 return this.Data_Nasc;                  } 
@@ -89,6 +94,7 @@ this.Email=email;                    }
            
      String Dados = "\n"+"\nCódigo:  "+this.getCod()
         + "\nNome:  "+this.getNome()
+        +"\n  CPF:  "+this.getCPF()
         +"\n  Data de Nascimento:  "+this.getDate_Nasc()
         +"\n  Endereço:  "+this.getEndereco()
         +"\n  Telefone:  "+this.getTelefone()
