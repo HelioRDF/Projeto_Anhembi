@@ -4,7 +4,6 @@ import TelaPrincipal.Tela;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
-import jdk.nashorn.internal.runtime.regexp.joni.Option;
 
 /**
  *
